@@ -1,5 +1,7 @@
 <h1 align="center">Pomodoro Timer</h1>
 
+<img align="center" src="https://github.com/danielfilh0/pomodoro-timer/blob/master/img/screenshot.PNG">
+
 <p>A técnica do Pomodoro foi desenvolvida em 1988 pelo italiano Francisco Cirillo, que consiste em um gerenciador de tempo onde você executa suas tarefas/estudos
 em, geralmente, 25 minutos, e, após isso, faz uma pausa de 5 minutos. Depois da pausa, você volta às suas atividades durante 25 minutos e nisso o ciclo se repete.
 Esse método aumenta sua produtividade durante o dia-a-dia.</p>
