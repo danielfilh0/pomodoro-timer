@@ -14,4 +14,4 @@ Esse método aumenta sua produtividade durante o dia-a-dia.</p>
 - [ ] Ao terminar o tempo de trabalho, haverá um som de áudio indicando que o tempo de pausa iniciou.
 
 <h2>Deployment</h2>
-https://danielfilh0.github.io/pomodoro-timer/
+https://pomodoro-timer-df.netlify.app/
