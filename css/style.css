@@ -1,0 +1,109 @@
+:root {
+  --color-primary: #f05454;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+  color: var(--color-primary);
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--color-primary);
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--color-primary);
+}
+
+:-ms-input-placeholder {
+  color: var(--color-primary);
+}
+
+.hidden {
+  display: none;
+  transition: 0.3s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+
+.pomodoro {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding-top: 4rem;
+  font-size: 3rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: white;
+  text-align: center;
+}
+
+.pomodoro .countTimer {
+  font-size: 1rem;
+}
+
+img {
+  color: white;
+  cursor: pointer;
+}
+
+form div {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+input,
+a[class^='btn'] {
+  font-size: 1.3rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+
+input {
+  width: 15rem;
+  height: 3rem;
+  text-align: center;
+  padding: 0 0.8rem;
+  margin-right: 0.8rem;
+  outline: none;
+  border: 3px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+a[class^='btn'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  text-align: center;
+  color: white;
+  border: 3px solid var(--color-primary);
+  background-color: var(--color-primary);
+  transition: 0.2s;
+}
+
+a[class^='btn']:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background-color: white;
+}

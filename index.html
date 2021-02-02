@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Pomodoro Timer</h1>
+    <main class="pomodoro">
+      <p id="timer" class="timer">
+        <span id="m_timer" class="m_timer">00</span>
+        <span>:</span>
+        <span id="s_timer" class="s_timer">03</span>
+      </p>
+      <p id="break" class="break hidden">
+        <span id="m_break" class="m_break">00</span>
+        <span>:</span>
+        <span id="s_break" class="s_break">06</span>
+      </p>
+      <div class="icons">
+        <img class="play" src="/img/icons/play.svg" alt="Inicia o tempo">
+        <img class="pause hidden" src="/img/icons/pause.svg" alt="Pausa o tempo">
+        <img class="reload" src="/img/icons/reload.svg" alt="Reinicia o tempo">
+      </div>
+      <p id="countTimer" class="countTimer hidden">
+        <span id="count" class="count">0</span> Completado
+      </p>
+    </main>
+
+    <form action="">
+      <div>
+        <input type="number" min="1" id="inputTimer" class="inputTimer" placeholder="Insira o timer">
+        <a href="#" class="btnInputTimer">Go</a>
+      </div>
+      <div><input type="number" min="1" id="inputBreak" class="inputBreak" placeholder="Insira o break">
+        <a href="#" class="btnInputBreak">Go</a>
+      </div>
+    </form>
+
+  </div> <!-- container -->
+  <script src="./js/pomodoro.js"></script>
+</body>
+
+</html>
